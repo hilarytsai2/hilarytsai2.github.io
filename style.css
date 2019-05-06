@@ -3,7 +3,6 @@ body{
 	width: 100%;
 	height: auto;
 
-
 	
 background-size: 100vw 100vh;
 }
@@ -168,17 +167,9 @@ footer {
        width:40vw;
        height:auto;
        display: block;
-    
+   } 
 }
 
-  @media all and (max-width: 480px) { 
-body {
-    background-image: url("./newimages/indexmobilebg.jpg");
-  width: 100%;
-  height: auto;
-
-
-}
 .ytlink{
 	margin-top: 33vw;
   margin-bottom: 2vw;
