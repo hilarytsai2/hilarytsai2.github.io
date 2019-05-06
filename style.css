@@ -21,19 +21,19 @@ nav {
 }
 
 a {
-	color:#FFF;
-	text-align: center;
-	text-decoration: none;
-	width:122px;
-	padding:0em 0;
-	display: inline-block;
-	font-weight: bold;
-	transition: all .4s ease-in-out;
-	font-family: 'Luckiest Guy', cursive;
-	font-size: 15pt;
-	text-shadow: 1.2px 1.2px #7D7D7D;
-	letter-spacing: 1px;
-
+	
+  color:#FFF;
+  text-align: center;
+  text-decoration: none;
+  width:159px;
+  padding:0em 0;
+  display: inline-block;
+  font-weight: bold;
+  transition: all .4s ease-in-out;
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 17pt;
+  text-shadow: 1.6px 1.6px  #000000;
+  letter-spacing: 1.3px;
 
 
 }
@@ -68,7 +68,7 @@ a:nth-child(2):hover{
 }
 
 a:nth-child(1):hover{
-  color: lime;
+  color: skyblue;
 }
 
 a:nth-child(3):hover ~.line {
