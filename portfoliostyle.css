@@ -88,6 +88,7 @@ font-weight: bold;
   text-align: center;
   padding-top:70px;
   padding-right: 100px;
+  
 }
 .column {
   padding-right: 100px;
@@ -98,6 +99,7 @@ font-weight: bold;
   margin-left: auto;
   margin-right: auto;
   margin-top: 100px;
+  display:table;
   
  
    }
