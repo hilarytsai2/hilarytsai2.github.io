@@ -43,11 +43,13 @@ a {
    nav, a {
        font-size: 1em;
        left:22%;
+       top:10%;
        text-align:left;
        padding-right: 0;
        float: none;
        display: block;
        line-height: 5vw;
+
    } 
 }
 
