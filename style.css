@@ -123,6 +123,7 @@ footer {
   margin-left: auto;
   margin-right: auto;
   margin-top: 90px;
+  display:table;
   
  
    }
@@ -130,6 +131,7 @@ footer {
    .aboutheading:hover {
    	content: url("./newimages/aboutheadinghovered.png");
    	cursor:pointer;
+    display:table;
 
    }
 
@@ -170,6 +172,7 @@ footer {
 	position: relative;
 	display:inline-block;
 	margin-left: 9vw;
+  display:table;
 	
 
 
@@ -181,6 +184,7 @@ footer {
 	position: relative;
 	display:inline-block;
 	margin-left: 58vw; 
+  display:table;
 
 
 
@@ -189,12 +193,14 @@ footer {
 .ytlink:hover {
 	content: url("./newimages/ythover4.png");
 	cursor: pointer;
+  display:table;
 	
 }
 
 .gitlink:hover {
 	content: url("./newimages/githover4.png");
 	cursor: pointer;
+  display:table;
 	
 }
 
@@ -209,12 +215,14 @@ footer {
   margin-left: 18vw;
  width:22%;
  box-shadow: 10px 10px 5px #333333;
+ display:table;
  
 }
 
 .me:hover {
   content: url("./newimages/mehover.jpg");
   cursor: pointer;
+  display:table;
   
 }
 

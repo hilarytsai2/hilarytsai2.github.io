@@ -111,6 +111,7 @@ font-weight: bold;
 .appsandcreativeheading:hover {
     content: url("./newimages/appsandcreativeheadingwraphovered3.png");
     cursor:pointer;
+    display:table;
 
    }
 
@@ -139,6 +140,7 @@ font-weight: bold;
 
 .modalIMG:hover {
   cursor: pointer;
+  display:table;
 }
 
 
