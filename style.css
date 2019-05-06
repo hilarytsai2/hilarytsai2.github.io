@@ -39,7 +39,7 @@ a {
 
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 480px) {
    nav, a {
        font-size: 1em;
        left:22%;
