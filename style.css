@@ -3,6 +3,7 @@ body{
 	width: 100%;
 	height: auto;
 
+
 	
 background-size: 100vw 100vh;
 }
@@ -38,13 +39,15 @@ a {
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 480px) {
    nav, a {
-       font-size: 0.8em;
-       padding-left: 10px;
+       font-size: 1em;
+       left:22%;
+       text-align:left;
        padding-right: 0;
        float: none;
        display: block;
+       line-height: 5vw;
    } 
 }
 
@@ -163,9 +166,17 @@ footer {
        width:40vw;
        height:auto;
        display: block;
-   } 
+    
 }
 
+  @media all and (max-width: 480px) { 
+body {
+    background-image: url("./newimages/indexmobilebg.jpg");
+  width: 100%;
+  height: auto;
+
+
+}
 .ytlink{
 	margin-top: 33vw;
   margin-bottom: 2vw;
