@@ -1,0 +1,460 @@
+.navbarimage {
+	
+	padding-bottom: -40px;
+	padding-right: 90px;
+}
+.container2 {
+	margin-top: -110px;
+}
+
+.navbarimage:hover {
+	background-image: url("../images/htnewhover2.png");
+}
+.nav-item {
+	padding-right:30px;
+}
+
+.nav-link {
+	font-size:33px;
+	padding-top: 20px;
+   
+    font-family: 'Life Savers';font-size: 22px;
+}
+
+
+.navbarimage { cursor: pointer;
+ }
+ 
+ a.nav-link:hover {
+ 	color:#3399FF !important;
+ 	  transform: scale(1.2); 
+ 	}
+
+ .aboutimg {
+ 	padding-left:600px;
+ }
+
+ .aboutme {
+ 	margin:0 auto;
+ 	padding-top:150px;
+ 	font-size:27px;
+ 	color:#fff;
+ 	margin-left:270px;
+ 	margin-right:270px;
+ 	text-indent:60px;
+ 	padding-left: 40px;
+ 	letter-spacing:1.5px;
+ 	font-weight:bold;
+ 	font-family: 'Noto Sans', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Muli', sans-serif;
+ }
+
+.heading1 {
+	padding-right:500px;
+	padding-top:100px;
+}
+
+.aboutnavbar {
+	padding-left:413px;
+}
+.homenavbar {
+	padding-left:250px;
+}
+
+.magic {
+	text-align:center;
+	padding-bottom: 80px;
+	margin-top: -200px;
+	padding-left:294px;
+
+}
+.skills{
+	text-align:left;
+	padding-left:355px;
+	font-size:26px;
+
+	color:#fff;
+
+}
+ th, td {
+  padding: 0 70px;
+}
+
+.skillsimg {
+	padding-left:460px;
+	padding-bottom:16px;
+}
+.skillsimg:hover {
+	content: url("../images/skillshover3.png");
+	cursor: pointer;
+ 
+}
+
+
+.git:hover {
+	content: url("../images/3dgithover2.png");
+	cursor: pointer;
+	
+
+}
+
+.indexbg {
+	margin-left: -124px;
+	margin-top:-90px;
+	height: 40%;
+	width:80%;
+	padding-top:100px;
+	z-index: 0;
+	position: absolute;
+
+
+}
+	
+	
+
+
+.youtube:hover {
+	content: url("../images/youtubehover.png");
+	cursor: pointer;
+ 
+}
+
+.links {
+	color:#fff;
+	font-size:33px;
+	margin-left: 140px;
+	padding-top:300px;
+}
+
+
+
+
+.container-fluid {
+    background: #000000;
+  color:#ffffff;
+    margin: 40px auto 10px;
+    padding: 20px 0px;
+    max-width: 960px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+.embed-responsive-4by3 {
+    padding-bottom: 58%;   
+}
+
+
+.row {
+	padding-left: 100px;
+	margin:0 auto;
+	text-align: center;
+	padding-top:70px;
+	padding-right: 100px;
+}
+.column {
+	padding-right: 100px;
+}
+
+.video-fluid {
+	margin:0 auto;
+}
+
+.matrixdots {
+	position: absolute;
+	z-index:-3;
+	padding-right: 70px;
+	
+}
+.carousel {
+	padding-top:-1000px;
+
+
+}
+
+.aboutbackground {
+	padding-left: -200px;
+	margin-top: 10px;
+
+}
+
+.skillicon {
+	margin-right: 44px;
+	margin-left: 44px;
+}
+
+.skills {
+
+	margin-right: 100px;
+	margin-left: 80px;
+    padding-left: 180px;
+   
+    
+}
+
+.c4d:hover {
+	content: url("../images/c4dhover.png");
+
+}
+
+.ae:hover {
+	content: url("../images/aehover.png");
+}
+
+
+.fcp:hover {
+	content: url("../images/fcphover.png");
+}
+
+.mm:hover {
+	content: url("../images/mmhover.png");
+}
+
+
+.mac:hover {
+	content: url("../images/machover.png");
+}
+
+.windows:hover {
+	content: url("../images/windowshover.png");
+}
+
+.container {padding:20px;}
+.form-control {width:120px;}
+.popover {max-width:400px;}
+
+.squiggles {
+	padding-top: 15px;
+}
+
+
+
+.mylinks {
+	padding-top: 70px;
+	padding-left: 200px;
+}
+
+ .softwareskills{
+ 	padding-left:500px;
+ 	margin-top:-100px;
+
+ 	
+ }
+
+ .softwareskills:hover {
+	content: url("../images/hoversoftwareskills.png");
+	cursor:pointer;
+}
+
+.cubeicons {
+
+	margin-left: 220px;
+	padding-bottom: 50px;
+	padding-top: 55px;
+}
+
+.htmlcss:hover {
+	content: url("../images/hoverhtmlcss.png");
+	cursor:pointer;
+}
+
+.csharp:hover {
+	content: url("../images/hovercsharp2.png");
+	cursor:pointer;
+}
+
+.js:hover {
+	content: url("../images/hoverjscube3.png");
+	cursor:pointer;
+}
+
+.sql:hover {
+	content: url("../images/hoversqlcube1.png");
+	cursor:pointer;
+}
+.cubeicon {
+	padding-left:45px;
+	padding-right: 45px;
+}
+
+.recentwork:hover {
+	content: url("../images/recentworknew3.png");
+	cursor:pointer;
+}
+
+.recentwork {
+
+	padding-left:500px;
+ 	margin-top:-100px;
+
+ 	
+ }
+
+h4 { font-family: 'Open Sans'; margin: 0;}
+
+.modal,body.modal-open {
+    padding-right: 0!important
+}
+
+body.modal-open {
+    overflow: auto
+}
+
+body.scrollable {
+    overflow-y: auto
+}
+
+.modal-footer {
+	display: flex;
+	justify-content: flex-start;
+	.btn {
+		position: absolute;
+		right: 10px;
+	}
+}
+
+
+
+div.row {
+	
+	margin-top: -50px;
+}
+
+.project1:hover{
+	cursor:pointer;
+}
+
+.hvr-wobble-vertical {
+	cursor:pointer;
+}
+
+
+	
+}
+
+.message {
+	height: 30px
+	width:40px;
+
+}
+
+.btn {
+	margin-left: 20px;
+}
+
+#Contact {
+	padding-top: 140px;
+}
+.submit {
+	padding-right: 400px;
+	padding-left: 10px;
+	
+
+}
+.pull-left {
+	margin-right: 500px;
+	margin-bottom: 70px;
+    color:#fff;
+    text-shadow: 1px 2px #000;
+}
+
+.form-control {
+	padding-right:20px;
+}
+.nav-item {
+	padding-top: -20px;
+}
+.indexbg {
+	padding-left: 130px;
+	margin-top: -26px;
+}
+
+.divider {
+	margin-left: 210px;
+	padding-top: 20px;
+}
+
+.webm {
+	background:transparent;
+}
+.clickexpand {
+	font-size: 23px;
+	color:#fff;
+	text-align: center;
+	margin-top: -70px;
+	opacity: 0.4;
+	padding-bottom:50px;
+	font-family: 'Life Savers';
+	padding-right: 8px;
+}
+
+.motiondesign{
+	font-size: 23px;
+	color:#fff;
+	padding-right: 60px;
+text-align: center;
+
+	margin-top: -70px;
+	opacity: 0.4;
+	padding-bottom:50px;
+	font-family: 'Life Savers';
+	padding-right: 8px;
+}
+
+.appblurb {
+	font-family: 'Life Savers';
+	font-size: 20px;
+	color:#fff;
+	letter-spacing: 0.6px;
+}
+
+.secondmographrow {
+	padding-bottom: 100px;
+
+}
+
+.myfooter {
+	color:#fff;
+	
+	z-index: 0;
+	position: absolute;
+	margin-top: 680px;
+	padding-left: 700px;
+	opacity: 0.4;
+
+}
+
+.about {
+	
+	padding-top: 270px;
+	padding-left: 660px;
+	padding-top: 240px;
+	z-index: 0;
+	position: absolute;
+
+}
+
+.about:hover {
+	content: url("../images/finalabouthovered.png");
+	cursor:pointer;
+
+}
+
+.particlesbg{
+	min-width:100%;
+	min-height:230%;
+	z-index: -3;
+	position: absolute;
+}
+
+	.apptitle{
+color:#0099FF;
+text-decoration: underline;
+font-weight: bold;
+	}
+
+.aboutme {
+	font-family: 'Life Savers';
+	font-size: 28px;
+	color:#fff;
+	letter-spacing: 0.6px;
+	text-shadow:1px 1px #5F7D8E;
+}
