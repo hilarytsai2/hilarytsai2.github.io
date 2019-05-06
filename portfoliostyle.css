@@ -145,6 +145,19 @@ font-weight: bold;
   display:table;
 }
 
+.card-img-top {
+  border-radius: 36px;
+  display: table;
+  box-shadow: 10px 10px 5px #7D7D7D;
+}
+
+.img-fluid {
+    border-radius: 36px;
+  display: table;
+  box-shadow: 10px 10px 5px #7D7D7D;
+}
+
+
 
    @media screen and (max-width: 768px) {
    .appsandcreativeheading {
@@ -154,3 +167,4 @@ font-weight: bold;
        margin-top: 20px;
    } 
 }
+
