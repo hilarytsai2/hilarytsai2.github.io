@@ -146,13 +146,13 @@ font-weight: bold;
 }
 
 .card-img-top {
-  border-radius: 36px;
+  border-radius: 47px;
   display: table;
   box-shadow: 10px 10px 5px #7D7D7D;
 }
 
 .img-fluid {
-    border-radius: 36px;
+    border-radius: 47px;
   display: table;
   box-shadow: 10px 10px 5px #7D7D7D;
 }
