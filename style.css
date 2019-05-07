@@ -1,11 +1,9 @@
-body{
-	background-image: url("./newimages/indexbgnew4.jpg");
-	width: 100%;
-	height: auto;
-
-	
-background-size: 100vw 100vh;
+html, body 
+{
+    height:100%;
 }
+
+
 * {
 	margin: 0;
 	padding:0;
@@ -50,9 +48,7 @@ a {
        line-height: 9vw;
 
    } 
-   body{
-    width:120%;
-   }
+
 }
 
 /*.line {
@@ -60,7 +56,7 @@ a {
 	height:3px;
 	background-color: #fff;*/
 
-}
+
 
 
 
@@ -112,7 +108,25 @@ footer {
     height: 2.5rem; 
     font-weight: bold;
     letter-spacing: 2px;
-    text-shadow: 1.2px 1.2px black;         
+    text-shadow: 1.2px 1.2px black;   
+         
+
+   }
+
+   .indexfooter {
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    padding: 5px;
+    color: yellow;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem; 
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-shadow: 1.2px 1.2px black;   
+    position: fixed;
+         
 
    }
 
@@ -120,15 +134,30 @@ footer {
    	background-image: url("./newimages/newaboutbg7.jpg");
     background-repeat: no-repeat;
     width: 100%;
-  
-
-background-size:cover;
+    height: 100%;
+  background-size:cover;
 background-position:center;
-
-
+display: block;
+overflow-y: hidden;
 
    }
 
+#indexbody{
+  background-image: url("./newimages/indexbgnew4.jpg");
+ background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+  background-size:cover;
+background-position:center;
+display: block;
+
+  height: auto;
+
+  
+background-size: 100vw 100vh;
+
+
+}
    .aboutheading {
    display: block;
   margin-left: auto;
@@ -173,8 +202,8 @@ background-position:center;
 
 
 .ytlink{
-  margin-top: 33vw;
-  margin-bottom: 2vw;
+  margin-top: 20vw;
+  margin-bottom: 0vw;
   position: relative;
   display:inline-block;
   margin-left: 9vw;
@@ -186,7 +215,7 @@ background-position:center;
 
 .gitlink{
   margin-top: 33vw;
-  margin-bottom: 2vw;
+  margin-bottom: 0vw;
   position: relative;
   display:inline-block;
   margin-left: 58vw; 
@@ -242,6 +271,8 @@ background-position:center;
         margin-top: 70vw;
         margin-right: 7vw;
        }
+
+
      
   img.ytlink{
 
@@ -260,7 +291,7 @@ img.me {
   margin-top: 29vw;
   margin-left: 29vw;
   text-align: center;
-  background-image: url("./newimages/mehover.jpg");
+  content: url("./newimages/mehover.jpg");
 }
   
 
