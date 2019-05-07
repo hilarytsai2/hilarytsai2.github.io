@@ -3,7 +3,7 @@
 nav.portfolionav{
 	position: absolute;
 	top:5%;
-	left:14%;
+	left:18%;
 	transform: translate(-50%,-50%);
 
 }
@@ -86,7 +86,7 @@ font-weight: bold;
   padding-left: 100px;
   margin:0 auto;
   text-align: center;
-  padding-top:70px;
+  padding-top:40px;
   padding-right: 100px;
   
 }
@@ -106,8 +106,16 @@ font-weight: bold;
 
 #appsandcreativebody {
   background-image:url("./newimages/portfoliobg5.jpg");
-   background-size: 100vw 195vh; 
-   background-repeat: no-repeat;"
+      background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed;       
+   
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height:100%;
+    width:100%;
+}
 }
 
 .appsandcreativeheading:hover {
@@ -117,20 +125,19 @@ font-weight: bold;
 
    }
 
-   footer {
+  footer {
     display: flex;
-  
     justify-content: center;
+    padding-top: 80px;
     padding: 5px;
     color: yellow;
-    padding-top: 40px;
-    margin-bottom: 30px;
     bottom: 0;
     width: 100%;
     height: 2.5rem; 
     font-weight: bold;
     letter-spacing: 2px;
-    text-shadow: 1.2px 1.2px black;         
+    text-shadow: 1.2px 1.2px black;   
+         
 
    }
 
@@ -161,10 +168,43 @@ font-weight: bold;
 
    @media screen and (max-width: 768px) {
    .appsandcreativeheading {
-       width:60vw;
-       height:auto;
-       display: block;
-       margin-top: 20px;
+      display: none;
    } 
+
+
+   a.portnavlink,nav.portfolionav{
+       font-size: 1em;
+       left:26%;
+       top:10%;
+       text-align:left;
+       padding-right: 0;
+       float: none;
+       display: block;
+       line-height: 9vw;
+
+   
+
+}
+
+.card-img-top {
+  border-radius: 40px;
+  display: table;
+  box-shadow: 10px 10px 5px #7D7D7D;
+  height: 45vw;
+  width: 70vw;
+  margin-right: 10vw;
+}
+
+.img-fluid {
+    border-radius: 40px;
+  display: table;
+  height: 41vw;
+  width: 250vw;
+  box-shadow: 10px 10px 5px #7D7D7D;
+}
+.row {
+  margin-top: 9vw;
+}
+
 }
 
