@@ -284,6 +284,10 @@ background-size: 100vw 100vh;
 .ytlink:hover{
 
 }
+
+#aboutbody {
+  overflow-y: scroll;
+}
 img.me {
   width: 38vw;
   height: 38vw;
