@@ -166,7 +166,7 @@ font-weight: bold;
 
 
 
-   @media screen and (max-width: 768px) {
+   @media screen and (max-width: 480px) {
    .appsandcreativeheading {
       display: none;
    } 
@@ -199,11 +199,11 @@ font-weight: bold;
     border-radius: 40px;
   display: table;
   height: 41vw;
-  width: 250vw;
+  width: 300vw;
   box-shadow: 10px 10px 5px #7D7D7D;
 }
 .row {
-  margin-top: 9vw;
+  margin-top: 10vw;
 }
 
 }
