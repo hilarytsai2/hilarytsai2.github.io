@@ -41,7 +41,7 @@ a {
 @media screen and (max-width: 480px) {
    nav, a {
        font-size: 1em;
-       left:22%;
+       left:26%;
        top:10%;
        text-align:left;
        padding-right: 0;
@@ -50,6 +50,9 @@ a {
        line-height: 5vw;
 
    } 
+   body{
+    width:120%;
+   }
 }
 
 /*.line {
@@ -118,7 +121,8 @@ footer {
    	background-image: url("./newimages/newaboutbg7.jpg");
     background-repeat: no-repeat;
     max-width: 100%;
-    height: auto;
+    height: 100%;
+    position: absolute;
 
    }
 
@@ -162,38 +166,31 @@ footer {
 
    }
 
-   @media screen and (max-width: 768px) {
-   .aboutheading {
-       width:40vw;
-       height:auto;
-       display: block;
-   } 
-}
+
+
 
 .ytlink{
-	margin-top: 33vw;
+  margin-top: 33vw;
   margin-bottom: 2vw;
-	position: relative;
-	display:inline-block;
-	margin-left: 9vw;
+  position: relative;
+  display:inline-block;
+  margin-left: 9vw;
   display:table;
-	
+  
 
 
 }
 
 .gitlink{
-	margin-top: 33vw;
+  margin-top: 33vw;
   margin-bottom: 2vw;
-	position: relative;
-	display:inline-block;
-	margin-left: 58vw; 
+  position: relative;
+  display:inline-block;
+  margin-left: 58vw; 
   display:table;
 
-
-
-
 }
+
 .ytlink:hover {
 	content: url("./newimages/ythover4.png");
 	cursor: pointer;
@@ -208,6 +205,8 @@ footer {
   
 	
 }
+
+
 
 .me {
   position: absolute;
@@ -229,5 +228,51 @@ footer {
   cursor: pointer;
   display:table;
   
+}
+
+   @media screen and (max-width: 480px) {
+  .aboutheading{
+       display:none;}
+       .aboutme {
+        width: 80vw;
+        font-size: 15pt;
+        margin-top: 70vw;
+        margin-right: 7vw;
+       }
+     
+  img.ytlink{
+
+  margin-top: 2vw;
+  width:80vw;
+  margin-left: 8vw;
+
+}
+.ytlink:hover{
+
+}
+img.me {
+  width: 38vw;
+  height: 38vw;
+  border-radius: 79px;
+  margin-top: 29vw;
+  margin-left: 29vw;
+  text-align: center;
+  background-image: url("./newimages/mehover.jpg");
+}
+  
+
+.gitlink{
+
+  position: relative;
+margin-bottom: 0vw;
+width: 80vw;
+margin-left: 8vw;
+margin-top: 0vw;
+
+   } 
+
+   .gitlink:hover{
+
+}
 }
 
