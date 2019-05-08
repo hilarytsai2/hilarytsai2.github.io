@@ -3,7 +3,7 @@
 nav.portfolionav{
 	position: absolute;
 	top:5%;
-	left:18%;
+	left:17%;
 	transform: translate(-50%,-50%);
 
 }
@@ -54,11 +54,11 @@ a:nth-child(2):hover{
 a:nth-child(3):hover ~.line {
 	transform:translate(250px);
 	transition: all .4s ease-in-out;
-	background-color: yellow;
+	background-color: lime;
 }
 
 a:nth-child(3):hover{
-	color: yellow;
+	color: lime;
   text-shadow: 3px 3px  #000000;
 }
 
