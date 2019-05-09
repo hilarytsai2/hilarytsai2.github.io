@@ -67,12 +67,12 @@ a:nth-child(2):hover ~.line {
 }
 
 a:nth-child(2):hover{
-	color: tomato;
+	color: lime;
   text-shadow: 3px 3px  #000000;
 }
 
 a:nth-child(1):hover{
-  color: skyblue;
+  color: lime;
   text-shadow: 3px 3px  #000000;
 }
 
@@ -94,7 +94,7 @@ a:nth-child(4):hover ~.line {
 }
 
 a:nth-child(4):hover{
-	color: skyblue;
+	color: lime;
 }
 
 footer {
